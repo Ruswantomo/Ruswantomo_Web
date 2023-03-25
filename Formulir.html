@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Daftar Member</title>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="Formulir.css">
+
+    <!-- Navbar -->
+	<nav>
+        <div class="container">
+          <!-- Logo -->
+          <a href="#" class="logo">Cloudmedia</a>
+  
+          <!-- Menu -->
+          <ul class="menu">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Genres.html">Genres</a></li>
+            <li class="active"><a href="NewReleases.html">New Releases</a></li>
+            <li><a href="BestSeller.html">Bestsellers</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Formulir.html">Daftar Member</a></li>
+          </ul>
+        </div>
+      </nav>
+
+	<h1>Form Member</h1>
+	<form>
+		<label for="nama">Nama:</label><br>
+		<input type="text" id="nama" name="nama"><br>
+
+		<label for="email">Email:</label><br>
+		<input type="email" id="email" name="email"><br>
+
+		<label for="hobi">Hobby:</label><br>
+		<input type="checkbox" id="membaca" name="hobi[]" value="membaca">
+		<label for="membaca">Membaca</label><br>
+		<input type="checkbox" id="menulis" name="hobi[]" value="menulis">
+		<label for="menulis">Menulis</label><br>
+		<input type="checkbox" id="berenang" name="hobi[]" value="berenang">
+		<label for="berenang">Berenang</label><br>
+
+		<label for="jenis_kelamin">Jenis Kelamin:</label><br>
+		<input type="radio" id="laki_laki" name="jenis_kelamin" value="laki-laki">
+		<label for="laki_laki">Laki-laki</label><br>
+		<input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan">
+		<label for="perempuan">Perempuan</label><br>
+
+		<label for="negara">Negara:</label><br>
+		<select id="negara" name="negara">
+	    	<option value="Indonesia">Indonesia</option>
+	    	<option value="Malaysia">Malaysia</option>
+	    	<option value="Singapura">Singapura</option>
+	  	</select><br>
+
+	  	<label for="alamat">Alamat:</label><br>
+	  	<textarea id="alamat" name="alamat"></textarea><br>
+
+		<input type="button" value="Simpan" onclick="simpanData()">
+	</form>
+    <footer>
+        <p>Hak Cipta &copy; 2023 Ruswantomo. All rights reserved.</p>
+      </footer>
+</body>
+<script src="Formulir.js"></script>
+</html>

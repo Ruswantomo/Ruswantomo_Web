@@ -1,0 +1,134 @@
+
+  /* Navigation bar */
+  nav {
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    height: 60px;
+  }
+  
+  nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav .menu li {
+    margin-right: 20px;
+  }
+  
+  nav .menu li:last-child {
+    margin-right: 0;
+  }
+  
+  nav .menu li a {
+    color: #555;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+.books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  
+  .book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    max-width: 200px;
+    text-align: center;
+  }
+
+  
+  .book img {
+    width: 220px;
+    height: 350px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  .book h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .book p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .book .price {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  /* Pagination */
+  .pagination {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  
+  .pagination li {
+    margin: 0 10px;
+  }
+  
+  .pagination li a {
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .pagination li a:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+    border-color: #000000;
+  }
+  
+  footer {
+    background-color: #69f0e9;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #333;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 180px;
+  }
+
+  
