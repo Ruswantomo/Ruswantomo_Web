@@ -20,9 +20,9 @@ Gunakan akun yang telah didaftarkan/registrasi tadi ke halaman login di bawah in
 
 Halaman Formulir / Daftar Member 
 
-![WhatsApp Image 2023-03-26 at 04 20 06](https://user-images.githubusercontent.com/103126195/227742294-53bb78a1-2106-41c6-8e86-e466e8db1605.jpeg)
-
 ![WhatsApp Image 2023-03-26 at 04 19 51](https://user-images.githubusercontent.com/103126195/227742060-1d9abb10-f3ea-4c13-b079-c49de3502223.jpeg)
+
+![WhatsApp Image 2023-03-26 at 03 50 52](https://user-images.githubusercontent.com/103126195/227742046-9420c49b-90dd-4a71-b2cf-3a5daa664fe7.jpeg)
 
 Setelah menginput data pada halaman form diatas maka data tersebut akan disimpan kedalam Session Storage seperti gambar dibawah ini
 
